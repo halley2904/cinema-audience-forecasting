@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (do not commit raw competition data)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.feather
+*.h5
+
+# Model artifacts
+*.pkl
+*.joblib
+*.model
+*.bin
+
+# Outputs (optionally commit submission.csv)
+outputs/
+!outputs/submission.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.*
