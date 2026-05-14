@@ -174,21 +174,8 @@ All models were trained on an 80% time-based split and evaluated on the remainin
 
 ---
 
-## 📊 Results
+## 📊 Key Observations
 
-> Results are from validation set (time-based, unseen future dates).
-
-| Model | R² Score | RMSE | MAE |
-|-------|----------|------|-----|
-| Linear Regression | *(from notebook output)* | — | — |
-| Ridge | *(from notebook output)* | — | — |
-| Decision Tree | *(from notebook output)* | — | — |
-| Random Forest | *(from notebook output)* | — | — |
-| **LightGBM** | **Best** | **Lowest** | **Lowest** |
-
-*Full numeric results are available in the notebook output cells.*
-
-**Key Observations:**
 - Linear models performed weakly, confirming the non-linear nature of the audience data
 - Tree-based models significantly outperformed linear baselines
 - LightGBM achieved the best R², lowest RMSE, and lowest MAE
@@ -209,30 +196,8 @@ All models were trained on an 80% time-based split and evaluated on the remainin
 
 ---
 
-## 🚀 Setup & Usage
 
-### 1. Clone the repository
 
-```bash
-git clone https://github.com/YOUR_USERNAME/cinema-audience-forecasting.git
-cd cinema-audience-forecasting
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Add the data
-
-Download the dataset from the [Kaggle competition page](https://www.kaggle.com/) and place the CSV files under `data/raw/`.
-
-### 4. Run the notebook
-
-```bash
-jupyter notebook notebooks/cinema_audience_forecasting.ipynb
-```
 
 ---
 
