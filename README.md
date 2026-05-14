@@ -59,18 +59,7 @@ cinema-audience-forecasting/
 │
 ├── notebooks/
 │   └── cinema_audience_forecasting.ipynb   # Main analysis notebook
-│
-├── src/
-│   ├── feature_engineering.py              # Feature creation logic
-│   ├── preprocessing.py                    # Pipeline & encoders
-│   └── predict.py                          # Inference & submission
-│
-├── data/
-│   ├── raw/                                # Original Kaggle CSVs (not tracked)
-│   └── processed/                          # Merged & feature-engineered data
-│
-├── outputs/
-│   └── submission.csv                      # Final Kaggle submission
+│  
 │
 ├── docs/
 │   └── workflow.md                         # Detailed pipeline notes
